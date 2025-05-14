@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="cs">
 <head>
@@ -43,6 +44,20 @@
     a.button:hover {
       background-color: #00d6aa;
     }
+    .lang-switch {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    .lang-switch a {
+      color: #00ffc8;
+      text-decoration: none;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+    .lang-switch a:hover {
+      text-decoration: underline;
+    }
     footer {
       margin-top: 60px;
       font-size: 0.9em;
@@ -51,6 +66,11 @@
   </style>
 </head>
 <body>
+
+  <div class="lang-switch">
+    <a href="index.html">🇨🇿 Čeština</a>
+    <a href="index-en.html">🇬🇧 English</a>
+  </div>
 
   <h1>Tvoř hudbu s AI</h1>
   <p><em>Průvodce pro začátečníky (i bez zkušeností)</em></p>
@@ -63,7 +83,7 @@
   </p>
 
   <a class="button" href="Tvorba_hudby_s_AI.pdf" target="_blank">📥 Stáhnout e-knihu (PDF)</a>
-  <a class="button" href="https://buymeacoffee.com/plechjan                " target="_blank">☕ Podpoř autora</a>
+  <a class="button" href="https://buymeacoffee.com/plechjan" target="_blank">☕ Podpoř autora</a>
 
   <footer>
     &copy; 2025 Jan Salvadore | Sleduj vývoj MusicCraftAI Studio
